@@ -1,4 +1,89 @@
 body{
-background-color: rgb(88, 86, 92);
-
+background-color: rgb(227, 235, 193);
+font-family: Arial, Helvetica, sans-serif;
+background-size: cover;
+margin: 0;
+padding: 0;
+text-align: left;
 }
+
+
+.header nav {
+	background: rgba(0,0,0,0.3);
+    inline-size: 700px;
+	height: 40px;
+	line-height: 30px;
+	margin: 0 auto 30px auto;
+	text-align: center;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+
+
+
+
+
+
+
+.header nav ul li {
+	float: center; 
+	display: inline; 
+}
+	
+.header nav a:link, .header nav a:visited {
+	color: #fff;
+	display: inline-block;
+	height: 30px;
+	padding: 5px 23px;
+	text-decoration: none;
+}
+.header nav a:hover, .header nav a:active,
+.header nav .active a:link, .header nav .active a:visited {
+	background-color: rgb(180, 119, 180);
+	color: #fff;
+	text-shadow: none ;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: rgba(0,0,0,0.3);
+    inline-size: 700px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto 30px auto;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;	
+    color: #FFF;
+    position: absolute;
+    bottom: 0%;
+    
+}
+
+
+
+
+
+
+
+
