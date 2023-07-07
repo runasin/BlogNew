@@ -4,30 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login-signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
 <body>
 <header class="header">
   <h2 class="h2"><a href="index.html" style="text-decoration: none; color: black;"> Blog'um </a></h2>
-    <nav>
-      
-      <ul>
-        <li ><a href="index.html">Ana Sayfa</a></li>
-        <li ><a href="hakkimda.html">Hakkımda</a></li>
-        <li ><a href="iletisim.html">İletişim</a></li>
-        <li class="active" ><a href="login-signup.html">Giriş Yap/ Üye Ol</a></li>
-        
-      </ul>
+    
     </header>
-
-    <article class="content-1">	
-      
+    <article class="content-1">	  
       <content >
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste magni dolore quidem omnis tenetur impedit eaque delectus, exercitationem, eveniet ab distinctio quo suscipit molestiae? Tempora, error unde fuga non eum alias autem quae sed, cupiditate, quo obcaecati doloremque accusantium ea voluptatum dicta laboriosam nobis vitae voluptatem. Odio, officiis? Laudantium, iure?
+        <p class="welcome">Welcome Back </p>
+        <p class="welcomealt"> Today is a new day. It's your day. You shape it. 
+          Sign in to start managing your projects.</p><br>
+          <h2 class="h2"><i class="fas fa-lock fa-2xl"></i>  Login</h2>
+          <form name="form-login">
+            
+            <input type="email" class="input" name="email" placeholder="Email">
+            <input type="password" class="input" id="pass" placeholder="Password" />
+            <button type="submit" class="submitbtn">Login</button> 
+          </form>
+
       </content>
     </article>
+  
+    <article class="content-2">	
+      
+    </article>
 
-  </nav>
     <footer class="footer">
 		<p>Copyright &copy;<a href="https://github.com/runasin" style="text-decoration: none;"> runasin </a> 2023</p>
 	</footer>
