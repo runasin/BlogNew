@@ -13,6 +13,12 @@
 	margin-bottom: 0%;
 }
 
+#person{
+	background:url(images/person.png) no-repeat;
+	height: 24%;
+	margin-left: 6% ;
+	padding-left: 1%;
+}
 .content-2 {
 	width: 816px;
     height: 800px;
