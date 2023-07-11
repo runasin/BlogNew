@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Üye Ol</title>
+    <title>Blog</title>
+    <link rel="stylesheet" href="login-signup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
 </head>
-<body>
+<body id="body">
+<header class="header">
+  <h2 class="h2"><a href="index.html" style="text-decoration: none; color: black;"> Blog'um </a></h2>
+  <nav> 
+      
+    <ul>
+    <li ><a href="login.html">Giriş Yap</a></li>
+    <li class="active" ><a href="signup.html">Üye Ol</a></li>
+  </ul>
+</nav>
+    </header>
+    <article class="scontent-1">	  
+      <content >
+        <p class="welcome">Welcome Back </p>
+        <p class="welcomealt"> Today is a new day. It's your day. You shape it. 
+          Sign in to start managing your projects.</p><br>
+          <p id="person"></p>
+          <h2>Sign Up</h2>
+          <form name="form-login">
+            
+            <input type="email" class="input" name="email" placeholder="Email">
+            <input type="password" class="input" id="pass" placeholder="Password" />
+            <input type="password" class="input" id="pass" placeholder="Password" />
+            <button type="submit" class="submitbtn">Login</button> 
+          </form>
+
+      </content>
+    </article>
+  
+    <div class="hover01">	
+        <figure class="scontent-2">
+  
+  
+        </figure>
+      </div>
+
+    <footer class="footer">
+		<p>Copyright &copy;<a href="https://github.com/runasin" style="text-decoration: none;"> runasin </a> 2023</p>
+	</footer>
     
 </body>
 </html>

@@ -16,10 +16,23 @@ text-align: left;
     width: 600px;
     height: 800px;
 	float: left;
-	margin-left: 14%;
+	margin-left: 20%;
 	border-radius: 24px;
 	/*background-color:rgba(219, 219, 219, 0.363); */
-	background-color:rgba(185, 150, 192, 0.144);
+	background-color:rgba(185, 150, 192, 0.178);
+	text-align: center;
+	padding: 32px 32px;
+	margin-bottom: 0%;
+}
+
+.scontent-1 {
+    width: 600px;
+    height: 800px;
+	float: right;
+	margin-right: 20%;
+	border-radius: 24px;
+	/*background-color:rgba(219, 219, 219, 0.363); */
+	background-color:rgba(185, 150, 192, 0.178);
 	text-align: center;
 	padding: 32px 32px;
 	margin-bottom: 0%;
@@ -31,19 +44,43 @@ text-align: left;
 	margin-left: 35% ;
 	padding-left: 1%;
 }
+
+#sperson{
+	background:url(images/sperson.png) no-repeat;
+	height: 24%;
+	margin-right: 35% ;
+	padding-right: 1%;
+}
 .content-2 {
-	width: 21%;
-    height: 500px;
+	width: 30%;
+    height: 600px;
 	float: right;
-	margin-right:16%;
+	margin-right:0%;
 	border-radius: 24px;
-	background:url(images/handim.png) no-repeat;
+	background:url(images/handr.png) no-repeat;
 	text-align: center;
 	padding: 32px 32px;
-	margin-top: 8%;
+	margin-top: 0%;
+	
 }
 
 
+.hover01 :hover {
+	transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+}
+.scontent-2 {
+	width: 30%;
+    height: 600px;
+	float: left;
+	margin-left:0%;
+	border-radius: 0px;
+	background:url(images/handleft.png) no-repeat;
+	/*background-color:rgba(185, 150, 192, 0.178);*/
+	text-align: center;
+	padding: 32px 32px;
+	margin-top: 4%;
+}
 .welcome{
 
     color: var(--primary-text, #0C1421);
@@ -106,7 +143,7 @@ input {
   }
   .submitbtn {
 	border-radius: 12px;
-	background: rgb(194, 159, 180);
+	background: rgb(46, 24, 107);
 	border: 0;
 	width: 70%;
 	height: 40px;
@@ -115,8 +152,8 @@ input {
 	transition: background 0.3s ease-in-out;
   }
   .submitbtn:hover {
-	background: #b3b3b3;
-	color: black;
+	background: #935cc0;
+	color: rgb(255, 255, 255);
   }
 
 .h2{
