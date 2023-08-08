@@ -7,7 +7,7 @@
     <title>Blog</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
 
 </head>
 <body class="body">
@@ -17,9 +17,10 @@
         <a href="index.html" class="logo">Portfolio</a>
 
         <nav class="navbar">
-          <a href="#" class="active">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
         </nav>
     <!--/header-->    
     </header>
@@ -28,86 +29,123 @@
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, It's Me</h3>
-        <h1> Nisa Nur </h1>
-        <h3> And I'm <span>web developer</span></h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, voluptatum.</p>
+        <h1> Nisa Nur Açıkgöz</h1>
+        <h3> And I'm <span class="multiple-text"></span></h3>
+          
           <div class="social-media"> 
-              <a href=""><box-icon name='instagram' type='logo' color='#ffffff' ></box-icon></a>
-              <a href=""></a>
-              <a href=""></a>
-              <a href=""></a>
+              <a href=""><i class="ri-instagram-line"></i></a>
+              <a href=""><i class="ri-linkedin-fill"></i></a>
+              <a href=""><i class="ri-github-line"></i></a>
+              <a href=""><i class="ri-mail-line"></i></a>
 
           </div>
-
       </div>
-    </section>
 
+        <div class="home-img">
+          <img src="images/home.png" width="600px" alt="home">
+
+
+        </div>
+    </section>
 
 
 <!--/content-->
 
+<!--about-page-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-<!--<div>
-  <header class="header">
-    <h2 class="h2"><a href="index.html"><img src="images/logo.png" width="190" height="75"></a></h2>
-      <nav> 
-        <ul>
-        <li class="active"><a href="index.html">Ana Sayfa</a></li>
-        <li ><a href="hakkimda.html">Hakkımda</a></li>
-        <li ><a href="login.html">Giriş Yap</a></li>
-        <li ><a href="signup.html">Üye Ol</a></li>
-      </ul>
-    </nav>
-  
-    </header>        
-      <div class="sidebar-solust">
-        <div>
-            
-        </div>
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/home1.png" width="300px" alt="">
       </div>
 
-    <article class="content-1">	  
-      <content >
-        <p>Merhaba, bu bir blog sayfasıdır. 
-          <p><a href="hakkimda.html" id="style-2" data-replace="Hakkımda" style="text-decoration: none;"><span>Hakkımda</span></a> kısmı beni daha iyi ve yakından tanımanıza yardımcı olabilir.</p>
-          
-        <p> Dilerseniz <a href="signup.html" id="style-2" data-replace="üye" style="text-decoration: none;"> üye </a>  olarak bana yorum atabilir veya sorularınızı sorabilirsiniz.</p>
-        </p>
-        <p>Kendi blog sayfanızı yaptırmak için benimle <a href="iletisim.html" id="style-2" data-replace="iletişime"style="text-decoration: none;">iletişime</a> geçebilirsiniz :D</p>
-        <p>Bu web sitesi hem bir sitede neler yapabileceğimin bir kısmı hem de beni tanımanıza yardımcı olabilecek bir blog sitesidir.</p>
-      </content>
-    </article>
-  -->
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h2>Web Developer</h2>
+        <p>Merhaba, ben Nisa Nur, 2003 yılı Ankara doğumluyum. Ankarada yaşıyorum. Bartın Üniversitesinde Bilgisayar Programcılığı okuyorum. Lisede Bilişim Teknolojileri/Web Tasarım dalı okudum. 
+          Liseden beri bilgisayarla oldukça ilgiliyim. Web tasarım her zaman ilgimi çok çekmiştir ve ben de bu yolda ilerlemek istediğimi gün geçtikçe daha çok fark ettim. 
+          Bu yüzden web tasarım eğitimi aldım ve kendimi daha da çok geliştirmeye devam etmek istiyorum. </p>
+          <p>Ayrıyetten Grafik Tasarım da dikkatimi çekiyor. Web Tasarım ve Grafik Tasarım hevesimi birleştirerek projeler yapmayı umuyorum.</p>
+        
+      </div>
 
 
+    </section>
+
+<!--/about-page-->
+
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+      <div class="services-box">
+        <i class="ri-code-s-fill"></i>
+        <h3>Web developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nesciunt.</p>
+      <a href="#" class="btn">Read more</a>
+      </div>
 
 
+      <div class="services-box">
+        <i class="ri-palette-line"></i>
+        <h3>Graphic designer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nesciunt.</p>
+      <a href="#" class="btn">Read more</a>
+      </div>
+
+      <div class="services-box">
+        <i class="ri-camera-line"></i>
+        <h3>photographer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, nesciunt.</p>
+      <a href="#" class="btn">Read more</a>
+      </div>
+    </div>
+    </section>
+
+    <!--contact-->
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Address">
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea> 
+      <input type="submit" value="Send Messaage" class="btn">
+    </form>
+      </section>
+
+    <!--/contact-->
+  
+      <!--footer-->
+
+        <footer class="footer">
+          <div class="footer-text">
+            <p>Copyright &copy; 2023 by <a href="https://github.com/runasin">runasin</a></p>
+          </div>
+
+          <div class="footer-iconTop">
+            <a href=""><i class="ri-arrow-up-line"></i></a>
+          </div>
+
+        </footer>
 
 
-    <footer class="footer">
-		  <p>Copyright &copy;<a href="https://github.com/runasin" style="text-decoration: none;"> runasin </a> 2023</p>
-	  </footer>
+      <!--/footer-->
+
 </div>
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
