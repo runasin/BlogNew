@@ -100,10 +100,16 @@ body{
 }
 
 .logo{
-	font-size: 2.5rem;
+	font-size: 2.6rem;
 	color: var(--text-color);
 	font-weight: 600;
 	cursor: default;
+}
+
+#menu-icon{
+	font-size: 3.6rem;
+	color: black;
+	display: none;
 }
 
 .navbar a {
@@ -356,6 +362,31 @@ font-size: 2rem;
 		padding: 2rem 3%;
 	}
 
+	@media (max-width:768px){
+	#menu-icon{ 
+		display: block;
+		}
+
+	.navbar {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	padding: 1rem 3%;
+	background: var(--bg-color);
+	border-top: .1rem solid rgba(0, 0, 0, .2);
+	box-shadow: 0.5rem 1rem Orgba(0, 0, 0, .2);
+	}
+
+	.navbar a {
+	display: block;
+	font-size: 2rem; 
+	margin: 3rem 0;		
+	}
+
+
+
+
 	.home{
 		flex-direction: column;
 	}
@@ -371,4 +402,5 @@ font-size: 2rem;
 	.about{
 		flex-direction: column-reverse;
 	}
+}
 }
