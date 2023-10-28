@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
 
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;600&family=Rajdhani&display=swap');
 
@@ -376,6 +376,11 @@ font-size: 2rem;
 	background: var(--bg-color);
 	border-top: .1rem solid rgba(0, 0, 0, .2);
 	box-shadow: 0.5rem 1rem Orgba(0, 0, 0, .2);
+	display: none;
+	}
+
+	.navbar.active{
+		display: block;
 	}
 
 	.navbar a {
